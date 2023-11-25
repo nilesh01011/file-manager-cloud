@@ -18,7 +18,7 @@ function SideNavBar() {
         <Image
           src="/cloud.png"
           alt="logo"
-          className="cursor-pointer h-[60px] object-contain"
+          className="cursor-pointer w-full h-[60px] object-contain"
           width={150}
           height={30}
           onClick={() => router.push('/')}
