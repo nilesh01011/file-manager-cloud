@@ -7,12 +7,12 @@ import { getAnalytics } from 'firebase/analytics';
 // Your web app's Firebase configuration
 // For Firebase JS SDK v7.20.0 and later, measurementId is optional
 const firebaseConfig = {
-  apiKey: process.env.FIREBASE_API,
+  apiKey: process.env.NEXT_PUBLIC_FIREBASE_API,
   authDomain: 'file-manager-app-a1a8a.firebaseapp.com',
   projectId: 'file-manager-app-a1a8a',
   storageBucket: 'file-manager-app-a1a8a.appspot.com',
   messagingSenderId: '355126507620',
-  appId: process.env.FIREBASE_APPID,
+  appId: process.env.NEXT_PUBLIC_FIREBASE_APPID,
   measurementId: 'G-YHT8GM7KLX',
 };
 
