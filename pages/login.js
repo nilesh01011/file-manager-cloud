@@ -18,7 +18,7 @@ function Login() {
       className="flex justify-center 
   items-center mt-[25%] ml-[0%] md:ml-[50%] flex-col gap-6"
     >
-      <Image src="/cloud.png" alt="logo" width={200} height={100} />
+      <Image src="/cloud.png" alt="logo" className='w-auto' width={200} height={100} />
       <button className=" text-white" onClick={() => signIn()}>
         <Image src="/google.png" alt="google" width={300} height={300} />
       </button>
